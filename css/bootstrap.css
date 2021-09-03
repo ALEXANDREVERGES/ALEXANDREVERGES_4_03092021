@@ -1658,6 +1658,8 @@ mark {
 }
 
 .text-center {
+    color: black;
+    font-size: 20px;
     text-align: center
 }
 
