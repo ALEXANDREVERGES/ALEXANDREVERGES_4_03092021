@@ -7,28 +7,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.row_container{
-  color: white;
-}
-.row_container h1{
-    color: white;
-    font-size: 55px;
-}
-.row_container p{
-    font-size: 20px;
-}
-.col-sm-12 p{
-    font-size: 20px;
-    color: black;
-}
-.col-xs-12 p{
-    font-size: 25px;
-    color: black;
-}
-.col-sm-12 h2{
-    color: black;
-}
-
 a,
 button {
     transition: all .3s ease-in-out;
@@ -36,7 +14,6 @@ button {
 }
 
 a:hover {
-    
     text-decoration: none;
     cursor: pointer;
 }
@@ -49,7 +26,6 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
-
 
 .bloc {
     width: 100%;
@@ -115,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    
+    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -290,11 +266,9 @@ a:hover {
 
 .voffset {
     margin-top: 30px;
-    
 }
 
 .voffset-lg {
-    
     margin-top: 80px;
 }
 
@@ -665,13 +639,13 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-
-
+h1,
+h2,
 h3,
 h4,
 h5,
 h6,
-
+p,
 label,
 .btn,
 a {
@@ -702,7 +676,9 @@ a {
     margin: auto auto auto auto;
 }
 
-
+p {
+    font-size: 11px;
+}
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -747,7 +723,7 @@ h3 {
 }
 
 h1 {
-    color: white;
+    color: #333333!important;
 }
 
 h4 {
@@ -760,7 +736,7 @@ h4 {
 }
 
 .white {
-    color: white!important;
+    color: #FFFFFF!important;
 }
 
 .portfolio-thumb {
@@ -795,20 +771,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #000000;
+    background-color: #F3976C;
 }
 
 .tc-white {
-    color: rgb(255, 255, 255);
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
-    background: black;
+    background: #F3976C;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: black!important;
+    background: #c27956!important;
     color: #FFFFFF!important;
 }
 
@@ -817,7 +793,7 @@ h4 {
 }
 
 .ltc-white:hover {
-    color: black!important;
+    color: #cccccc!important;
 }
 
 .ltc-atomic-tangerine {
@@ -832,12 +808,21 @@ h4 {
     color: #364577!important;
     border-color: #364577!important;
 }
+
+.bg-dots-bg {
+    background-image: url("img/dots-bg.png");
+}
+
+.bg-lines-h2-bg {
+    background-image: url("img/lines-h2-bg.png");
+}
+
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.bmp");
 }
 
 @media (max-width: 1024px) {
