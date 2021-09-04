@@ -1435,7 +1435,7 @@ img {
 .img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
-    display: block;
+    
     max-width: 100%;
     height: auto
 }
@@ -3024,6 +3024,9 @@ table th[class*=col-] {
 }
 
 @media screen and (max-width:767px) {
+    .img-responsive{
+        max-width: 50%;
+    }
     .table-responsive {
         width: 100%;
         margin-bottom: 15px;
