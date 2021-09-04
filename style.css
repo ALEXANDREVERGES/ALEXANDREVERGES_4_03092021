@@ -6,6 +6,19 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.tc-color{
+    color: white;
+}
+.bgc-atomic-footer{
+    background-color: black!important;
+}
+.flex-column{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 a,
 button {
@@ -640,7 +653,7 @@ a[data-lightbox]:hover img {
 }
 
 h1,
-h2,
+
 h3,
 h4,
 h5,
@@ -677,7 +690,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 20px;
 }
 
 .tight-width-whitespace {
@@ -775,17 +788,17 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: rgb(252,207,111)!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: black;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: rgb(252,207,111)!important;
+    color: black!important;
 }
 
 .ltc-white {
@@ -819,6 +832,7 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
+    width: 100%;
 }
 
 .bg-presentation {
@@ -858,6 +872,20 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
+    .flex-column{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .flex-column{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -886,6 +914,13 @@ h4 {
         padding: 0 20px;
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
+    }
+    .flex-column{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 }
 
@@ -1026,12 +1061,26 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .flex-column{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 }
 
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+    .flex-column{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 }
 
