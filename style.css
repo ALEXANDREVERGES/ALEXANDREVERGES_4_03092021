@@ -6,8 +6,26 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+.form-group{
+    margin-bottom: 20px
+}
+.form-group1{
+    margin-bottom: 15px;
+}
+
+.center_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.center{
+    display: flex;
+    align-items: center;
+}
 .tc-color{
-    color: white;
+    color: rgb(252,207,111) !important;
 }
 .bgc-atomic-footer{
     background-color: black!important;
@@ -518,9 +536,29 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
-.form-control {
-    border-color: rgba(0, 0, 0, .1);
+.form-control1 {
+    border-color: black;
     box-shadow: none;
+    width: 70%;   
+    height: 20px;
+}
+.form-control2 {
+    border-color: black;
+    box-shadow: none; 
+    width: 63%;   
+    height: 20px;  
+}
+.form-control3 {
+    border-color: black;
+    box-shadow: none;
+    width: 74%;   
+    height: 80px;   
+}
+.form-control4 {
+    border-color: black;
+    box-shadow: none;   
+    width: 74%;   
+    height: 80px;
 }
 
 .scrollToTop {
