@@ -19,13 +19,16 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
+    font-size: 20px;
+    color: white;
 }
 .center{
     display: flex;
     align-items: center;
 }
 .tc-color{
-    color: rgb(252,207,111) !important;
+    color:white;
+    text-shadow: 1px 1px 2px black;
 }
 .bgc-atomic-footer{
     background-color: black!important;
@@ -122,7 +125,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    
     background-size: 280px 280px;
 }
 
@@ -164,7 +167,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: white;
 }
 
 .d-bloc .a-btn:hover,
@@ -545,19 +548,19 @@ button {
 .form-control2 {
     border-color: black;
     box-shadow: none; 
-    width: 63%;   
+    width: 70%;   
     height: 20px;  
 }
 .form-control3 {
     border-color: black;
     box-shadow: none;
-    width: 74%;   
+    width: 70%;   
     height: 80px;   
 }
 .form-control4 {
     border-color: black;
     box-shadow: none;   
-    width: 74%;   
+    width: 70%;   
     height: 80px;
 }
 
@@ -690,13 +693,13 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
+
 
 h3,
 h4,
 h5,
 h6,
-p,
+
 label,
 .btn,
 a {
@@ -774,7 +777,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: rgb(252,207,111) !important;;
 }
 
 h4 {
@@ -804,7 +807,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: black;
     padding: 40px 40px 40px 40px;
 }
 
@@ -822,11 +825,12 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: black;
 }
 
 .tc-white {
     color: rgb(252,207,111)!important;
+    text-shadow: 1px 1px 2px black;
 }
 
 .btn-atomic-tangerine {
@@ -869,12 +873,12 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.webp");
     width: 100%;
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
